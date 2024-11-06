@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Scanner;
 
-public class IOStreamMain {
+public class IOBufferStreamMain {
 	public static void outStreamFunctoin() throws Exception {
 		OutputStream out = new FileOutputStream("data.dat");
 		out.write(7);
